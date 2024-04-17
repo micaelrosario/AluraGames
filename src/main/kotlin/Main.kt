@@ -16,4 +16,9 @@ fun main() {
 
     val json = response.body()
     println(json)
+
+    val meuJogo = Jogo("Batman: Arkham Asylum Game of the Year Edition",
+        "https:\\/\\/cdn.cloudflare.steamstatic.com\\/steam\\/apps\\/35140\\/capsule_sm_120.jpg?t=1681938587")
+
+    println(meuJogo)
 }

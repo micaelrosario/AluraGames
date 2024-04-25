@@ -11,7 +11,7 @@ data class Gamer(val nome:String, val email:String){
     }
 
     override fun toString(): String {
-        return "Gamer:\n" +
+        return ("===========")+" Gamer "+("=============")+"\n" +
                 "Nome: $nome\n" +
                 "Email: $email\n" +
                 "Data de Nascimento: $dataNascimento\n" +

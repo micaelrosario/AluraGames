@@ -31,7 +31,7 @@ data class Gamer(val nome: String, var email: String) {
     }*/
 
     override fun toString(): String {
-        return "Gamer:\n" +
+        return "\nGamer:\n" +
                 "Nome: $nome\n" +
                 "Email: $email\n" +
                 "Data de Nascimento: $dataNascimento\n" +
